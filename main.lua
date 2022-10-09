@@ -1,5 +1,6 @@
 local Vec2 = Vector2.new
 local Col3 = Color3.new
+local floor = math.floor
 
 -- // VFX //
 local TweenService = game:GetService("TweenService")
@@ -53,6 +54,7 @@ function UpdateRender(tracer, tI, plr)
     if onScreen and checkExists(plr) then
         tracer.Visible = true
         tI.Visible = true
+        tI.Text = plr.Name .. " (" .. floor((Character.HumanoidRootPart.Position - plr.HumanoidRootPart.Position).Magnitude) .. " studs)"
         tracer.To = Vec2(vector.X, vector.Y)
         tI.Position = Vec2(vector.X, vector.Y - 25)
     else
