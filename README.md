@@ -1,5 +1,5 @@
 # EntityESP
-No limitations. You can now see all entities. \n
+No limitations. You can now see all entities. \
 Test
 
 ```lua
