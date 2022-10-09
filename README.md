@@ -8,3 +8,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/raycast6000/EntityESP
 ```
 ## Notes
 - Doesn't work for Phantom Forces (I'm so lazy to actually add compatibility)
+- This script is compatible for most FPS games. And normal games like Fencing.
+- This is undetectable, don't worry.
