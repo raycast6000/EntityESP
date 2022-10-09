@@ -6,3 +6,5 @@ So this script fixes it.
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/raycast6000/EntityESP/main/loader.lua"))()
 ```
+## Notes
+- Doesn't work for Phantom Forces (I'm so lazy to actually add compatibility)
