@@ -74,7 +74,7 @@ end)
 workspace.ChildAdded:Connect(function (v)
     delay(1, function ()
         if v:IsA("Model") and v:FindFirstChild("Humanoid") and v ~= Character then
-            print("Asigning a tracer.")
+            print("Assigning a tracer.")
     
             if hasHead(v) then
                 local targetInfo = TxtBuilder.new(v.Name)
