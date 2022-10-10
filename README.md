@@ -11,6 +11,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/raycast6000/EntityESP
 - This script is compatible with most FPS games. Also, for normal games like Fencing.
 - This is undetectable, don't worry.
 ## Updates
-### **Patch** v1.0.1
+### **Patch** `v1.0.1`
 - The tracers doesn't follow you anymore after dying.
 - Studs label no longer stops working after dying.
