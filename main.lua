@@ -54,7 +54,7 @@ function UpdateRender(tracer, tI, plr)
     if onScreen and checkExists(plr) then
         tracer.Visible = true
         tI.Visible = true
-        tI.Text = plr.Name .. " (" .. floor((Character.HumanoidRootPart.Position - plr.HumanoidRootPart.Position).Magnitude) .. " studs)"
+        tI.Text = plr.Name .. " (" .. floor((Player.Character.HumanoidRootPart.Position - plr.HumanoidRootPart.Position).Magnitude) .. " studs)"
         tracer.To = Vec2(vector.X, vector.Y)
         tI.Position = Vec2(vector.X, vector.Y - 25)
     else
@@ -75,8 +75,8 @@ end)
 
 workspace.ChildAdded:Connect(function (v)
     delay(1, function ()
-        if v:IsA("Model") and v:FindFirstChild("Humanoid") and v ~= Character then
-            print("Assigning a tracer.")
+        if v:IsA("Model") and v:FindFirstChild("Humanoid") and v ~= Player.Character then
+            print("Assigning a tracer to", v.Name)
     
             if hasHead(v) then
                 local targetInfo = TxtBuilder.new(v.Name)
@@ -100,7 +100,7 @@ workspace.ChildAdded:Connect(function (v)
 end)
 
 for _,v in pairs(workspace:GetChildren()) do
-    if v:isA("Model") and v:FindFirstChild("Humanoid") and v ~= Character then
+    if v:isA("Model") and v:FindFirstChild("Humanoid") and v ~= Player.Character then
 
         if hasHead(v) then
             local targetInfo = TxtBuilder.new(v.Name)
