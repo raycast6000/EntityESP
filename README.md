@@ -13,7 +13,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/raycast6000/EntityESP
 ## Updates
 ### **Announcement** `v1.1`
 Im currently working for on the v1.1, but this is taking a bit longer than expected so I just did this announcement to
-update you about the development of this script
+update you about the development of this script \
 **New Features:**
 - A graphical user interface.
 - Ability to change between rendering modes. (Player or Entity)
