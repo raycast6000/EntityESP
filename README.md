@@ -17,7 +17,7 @@ update you about the development of this script. \
 **New Features:**
 - A graphical user interface.
 - Ability to change between rendering modes. (Player or Entity)
-- You'll be able to customize it as you want.
+- You'll be able to customize it as you want. \
 **Internal changes:**
 - It is completely rewritten.
 - It could take a bit longer to load the script, more if you didn't executed it yet.
