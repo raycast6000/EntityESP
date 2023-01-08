@@ -12,7 +12,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/raycast6000/EntityESP
 - This is undetectable, don't worry.
 ## Updates
 ### **Announcement**
-Project is currently discontinued due to I'm unable to code. \
+Project is currently discontinued because I'm unable to code.
 
 ### **Patch** `v1.0.1`
 - The tracers doesn't follow you anymore after dying.
