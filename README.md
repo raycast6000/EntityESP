@@ -1,5 +1,5 @@
 # EntityESP (DISCONTINUED)
-As the name says, you will now be able to see every entity in the world. \
+See every entity in the world. \
 I made this because I've seen some games that remove all players from the client side causing normal ESP scripts to not work. \
 So this script fixes it.
 
