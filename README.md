@@ -1,4 +1,4 @@
-# EntityESP (REMAKE IN PROGRESS)
+# EntityESP (discontinued because I'm lazy to code)
 See every entity in the world. \
 I made this because I've seen some games that remove all players from the client side causing normal ESP scripts to not work. \
 So this script fixes it.
@@ -11,9 +11,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/raycast6000/EntityESP
 - This script is compatible with most FPS games. Also, for normal games like Fencing.
 - This is undetectable, don't worry.
 ## Updates
-### **Announcement**
-I decided to continue developing this script. So expect an update very soon.
-
 ### **Patch** `v1.0.1`
 - The tracers doesn't follow you anymore after dying.
 - Studs label no longer stops working after dying.
