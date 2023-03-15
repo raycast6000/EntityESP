@@ -17,6 +17,11 @@ end
 function Link(entity: Model)
     print("Setting linker for", entity)
 
+    local Highlight = Instance.new("Highlight", entity)
+    Highlight.FillColor = Color3.fromRGB(166,166,166)
+    Highlight.OutlineColor = Color3.fromRGB(255,255,255)
+    Highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+
     local Line = Drawing.new("Line")
     Line.From = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
     Line.To = Vector2.new(0, 0)
