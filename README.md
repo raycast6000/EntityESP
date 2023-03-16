@@ -1,4 +1,4 @@
-# EntityESP (UNC)
+# EntityESP (UNC Supported)
 An ESP that for entities, or models that contain a Humanoid. \
 I made this because I've seen some games that remove all players from the client side causing normal ESP scripts to not work. \
 So this script fixes it.
