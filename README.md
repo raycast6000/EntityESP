@@ -11,6 +11,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/raycast6000/EntityESP
 - This script is compatible with most FPS games. Also, for normal games like Fencing.
 - This is undetectable.
 ## Updates
+### **Patch** `v1.1.2`
+- A new information label has been implemented (this label includes name and distance).
+- Fixed a bug that would link the player's character after respawning.
 ### **Patch** `v1.1`
 - I've rewritten the script to make it less stressful for your computer and more readable for everybody.
 - Studs labels have been removed (I will add them soon), and same with the name labels.
