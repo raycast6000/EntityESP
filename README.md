@@ -7,7 +7,7 @@ So this script fixes it.
 loadstring(game:HttpGet("https://raw.githubusercontent.com/raycast6000/EntityESP/main/main.lua"))()
 ```
 ## Notes
-- Doesn't work for Phantom Forces (I'm too lazy to actually add compatibility)
+- Doesn't work for Phantom Forces (I'm too lazy to add compatibility for just one game)
 - This script is compatible with most FPS games. Also, for normal games like Fencing.
 - This is undetectable.
 ## Updates
